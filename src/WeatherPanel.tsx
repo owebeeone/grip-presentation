@@ -1,4 +1,3 @@
-import React from 'react';
 import { useGrip } from '@owebeeone/grip-react';
 import { WEATHER_PROVIDER_NAME, WEATHER_PROVIDER_NAME_TAP } from './grips';
 import WeatherColumn from './WeatherColumn';

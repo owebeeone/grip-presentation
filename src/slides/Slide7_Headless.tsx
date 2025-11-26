@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Slide7() {
     return (
         <div className="w-full max-w-6xl mx-auto">

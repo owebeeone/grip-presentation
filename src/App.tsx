@@ -1,11 +1,11 @@
-import { useGrip, useChildContext, GripGraphVisualizer, useRuntime, GraphDumpButton } from '@owebeeone/grip-react';
-import { PAGE_SIZE, DESCRIPTION, COUNT, COUNT_TAP, CALC_DIGIT_PRESSED, CALC_ADD_PRESSED, CALC_SUB_PRESSED, CALC_MUL_PRESSED, CALC_DIV_PRESSED, CALC_EQUALS_PRESSED, CALC_CLEAR_PRESSED, CURRENT_TAB, CALC_DISPLAY } from './grips';
+import { useGrip, GripGraphVisualizer, useRuntime, GraphDumpButton } from '@owebeeone/grip-react';
+import { COUNT, COUNT_TAP, CALC_DIGIT_PRESSED, CALC_ADD_PRESSED, CALC_SUB_PRESSED, CALC_MUL_PRESSED, CALC_DIV_PRESSED, CALC_EQUALS_PRESSED, CALC_CLEAR_PRESSED, CURRENT_TAB, CALC_DISPLAY } from './grips';
 import TimeClock from './TimeClock';
 import TabBar from './TabBar';
 import AppHeader from './AppHeader';
 import WeatherPanel from './WeatherPanel';
 import Presentation from './Presentation';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
 
 function ResizableGraphWrapper(props: { children: React.ReactNode }) {
@@ -76,9 +76,6 @@ function ResizableGraphWrapper(props: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  const pageSize = useGrip(PAGE_SIZE);
-  const rowCtx = useChildContext();
-  const desc = useGrip(DESCRIPTION, rowCtx);
   const count = useGrip(COUNT);
   const countTap = useGrip(COUNT_TAP);
   const calcDisplay = useGrip(CALC_DISPLAY);

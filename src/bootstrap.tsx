@@ -1,5 +1,4 @@
 // bootstrap.tsx
-import React from 'react';
 import { GripProvider } from '@owebeeone/grip-react';
 import { grok, main } from './runtime';
 import { registerAllTaps } from './taps';

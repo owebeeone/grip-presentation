@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Slide2() {
     const words = [
         "Dependency Injection", "Separation of Concerns", "FREE SPACE", "Inversion of Control", "Signals",
@@ -10,7 +8,7 @@ export default function Slide2() {
     return (
         <div className="w-full max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-12 text-center text-white">
-                The Buzzword Bingo <span className="text-cyan-400">(The Hook)</span>
+                The Buzzword Bingo <span className="text-cyan-400">(What have you been doing lately?)</span>
             </h2>
             
             <div className="grid grid-cols-3 md:grid-cols-5 gap-4 text-center text-sm md:text-base">

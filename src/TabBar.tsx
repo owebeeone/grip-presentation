@@ -1,4 +1,3 @@
-import React from 'react';
 import { useGrip } from '@owebeeone/grip-react';
 import { CURRENT_TAB, CURRENT_TAB_TAP } from './grips';
 

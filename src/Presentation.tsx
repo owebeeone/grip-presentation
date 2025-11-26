@@ -1,6 +1,6 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useGrip } from '@owebeeone/grip-react';
-import { SLIDE_INDEX, SLIDE_INDEX_TAP, TOTAL_SLIDES } from './grips';
+import { SLIDE_INDEX, SLIDE_INDEX_TAP } from './grips';
 
 // Import all slides
 import Slide1 from './slides/Slide1_Title';

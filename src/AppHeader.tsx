@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useGrip, useRuntime, createAtomValueTap, type Tap } from '@owebeeone/grip-react';
 import { WEATHER_LOCATION, WEATHER_TEMP_C } from './grips.weather';
 

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Slide11() {
     return (
         <div className="w-full max-w-7xl mx-auto h-full flex flex-col">

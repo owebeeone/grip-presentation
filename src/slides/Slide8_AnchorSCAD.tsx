@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Slide8() {
     const openViewer = () => {
         window.open('https://owebeeone.github.io/anchorscad-browser/?utm_source=chatgpt.com', '_blank', 'noopener,noreferrer');

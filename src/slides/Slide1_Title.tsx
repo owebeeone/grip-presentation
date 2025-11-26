@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Slide1() {
     return (
         <div className="text-center py-12">
